@@ -2,7 +2,7 @@
 title: "p8105_hw3_hw2850"
 author: "Haoyang Wang"
 date: "2022-10-08"
-output: html_document
+output: github_document
 ---
 
 ```{r setup, include=FALSE}
