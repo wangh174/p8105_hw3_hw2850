@@ -121,7 +121,12 @@ The average maximum temperature fluctuates in January between -10 and 10 degree 
 
 ```{r}
 ggplot(ny_noaa_tidy, aes(x = tmin, y = tmax), group = week)+
-  geom_point(aes(color = year))
+  geom_point(aes(color = year))+
+  labs(
+    title = "Temperature Plot Across Years",
+    x = "Minimum Temperature (C)",
+    y = "Maximum Temperature (C)"
+  )
 ```
 
 
